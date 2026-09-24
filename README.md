@@ -1,4 +1,4 @@
-# XRift Studio ハンズオン
+# XRift Studioで3Dワールドを作る
 
 XRift Studioで3Dワールドを作るまでの流れを紹介する資料です。
 
