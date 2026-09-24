@@ -2,7 +2,7 @@
 
 XRift Studioを使って、歩いて回れる3Dワールドを作るハンズオン資料です。
 
-[ハンズオン資料を見る](https://webxr-jp.github.io/xrift-handson-2026-10/)
+[ハンズオン資料を見る](./slides.md)
 
 ## 作るもの
 
