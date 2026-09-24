@@ -84,18 +84,14 @@ fonts:
 
 # まずは流れを見てみよう
 
-<div class="mt-6 text-2xl leading-relaxed">
-  この資料では、XRift Studioを使った制作の流れを紹介します。
-</div>
-
-<div class="grid grid-cols-3 gap-4 mt-10">
-  <div class="flow-card"><div class="flow-number">01</div><strong>準備する</strong><span>アカウントとStudio</span></div>
-  <div class="flow-card"><div class="flow-number">02</div><strong>作る・試す</strong><span>編集してPlay</span></div>
+<div class="grid grid-cols-3 gap-4 mt-9">
+  <div class="flow-card"><div class="flow-number">01</div><strong>準備する</strong><span>XRiftのアカウント</span></div>
+  <div class="flow-card"><div class="flow-number">02</div><strong>作る・試す</strong><span>ブラウザかアプリで制作</span></div>
   <div class="flow-card"><div class="flow-number">03</div><strong>見せる</strong><span>XRiftへ公開</span></div>
 </div>
 
-<div class="mt-8 text-base opacity-70">
-  ワールドに何を作るかは、これから決めていきます。
+<div class="mt-10 text-xl opacity-80">
+  Studioはブラウザで開く方法と、パソコンに入れる方法があります。
 </div>
 
 ---
@@ -124,52 +120,91 @@ fonts:
 
 ---
 
-# XRift Studioを入れる
+# Studioの使い方を選ぶ
 
-<div class="grid grid-cols-2 gap-8 items-center mt-5">
+<div class="grid grid-cols-2 gap-8 mt-8">
 
-<div>
-  <div class="flow-number">01 / 準備する</div>
-  <div class="text-2xl leading-relaxed mt-4">
-    <a href="https://webxr-jp.github.io/xrift-studio/#download">Studioをダウンロード ↗</a>
-  </div>
-  <div class="text-xl mt-7">
-    初めて起動したら<br/><strong class="text-purple-300">「セットアップを開始」</strong>を押します。
-  </div>
-  <div class="text-base opacity-70 mt-7">
-    必要な制作ツールはStudioが準備します。
-  </div>
+<div class="visual-card flex flex-col items-center text-center min-h-72">
+  <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="Google Chrome" class="w-16 h-16 mt-1 mb-5" />
+  <strong class="text-2xl text-purple-300">ブラウザで開く</strong>
+  <div class="text-base mt-4 opacity-80">パソコンのChromeなどから、そのまま制作。</div>
+  <a class="mt-auto text-lg" href="https://webxr-jp.github.io/xrift-studio/editor.html">ブラウザ版βを開く ↗</a>
 </div>
 
-<div>
-  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/installation.png" alt="XRift Studioの初回セットアップ画面" />
-  <div class="caption">XRift Studioの初回画面</div>
+<div class="visual-card flex flex-col items-center text-center min-h-72">
+  <svg aria-label="パソコン" role="img" class="w-18 h-18 mb-4 text-purple-300" viewBox="0 0 80 80" fill="none"><rect x="10" y="13" width="60" height="43" rx="5" stroke="currentColor" stroke-width="4"/><path d="M6 65h68M30 56l-3 9m23-9 3 9" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+  <strong class="text-2xl text-purple-300">アプリを入れる</strong>
+  <div class="text-base mt-4 opacity-80">Windows・Macなどのパソコンにインストール。</div>
+  <a class="mt-auto text-lg" href="https://webxr-jp.github.io/xrift-studio/#download">ダウンロード案内 ↗</a>
 </div>
 
 </div>
 
 ---
 
-# アカウントをつなぐ
+# 使う端末の目安
+
+<div class="grid grid-cols-3 gap-5 mt-9 text-center">
+  <div class="flow-card items-center">
+    <div class="text-4xl">💻</div>
+    <strong>パソコン</strong>
+    <span>ブラウザ版・インストール版の両方を選べます。</span>
+  </div>
+  <div class="flow-card items-center">
+    <div class="text-4xl">▣</div>
+    <strong>iPad</strong>
+    <span>Safariでブラウザ版を開き、タッチ操作で制作できます。</span>
+  </div>
+  <div class="flow-card items-center">
+    <div class="text-4xl">▯</div>
+    <strong>スマホ</strong>
+    <span>ブラウザ版を開けます。画面が狭いため、制作はパソコンやiPadが進めやすいです。</span>
+  </div>
+</div>
+
+<div class="mt-8 text-base opacity-70">
+  Chromeは入口の例です。表示や操作はブラウザ・端末によって異なります。
+</div>
+
+---
+
+# アプリで始める場合
 
 <div class="grid grid-cols-2 gap-8 items-center mt-5">
 
 <div>
-  <div class="flow-number">01 / 準備する</div>
+  <div class="flow-number">02 / インストール版</div>
   <div class="text-xl mt-6 leading-relaxed">
-    Studioの<strong class="text-purple-300">「XRift にログイン」</strong>を押します。
-    ブラウザでXRiftにログインし、Studioに戻ります。
+    アプリを起動し、最初の画面で
+    <strong class="text-purple-300">「セットアップを開始」</strong>を押します。
   </div>
-  <div class="visual-card mt-8 text-lg">
-    Studioに自分の表示名が出たら完了です。
-  </div>
+  <div class="text-base opacity-70 mt-8">必要な制作ツールはStudioが準備します。</div>
 </div>
 
 <div>
-  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="XRift Studioのプロジェクト作成画面。右上にXRiftにログインのボタンがある" />
-  <div class="caption">画面右上に「XRift にログイン」</div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/installation.png" alt="XRift Studioの初回セットアップ画面" />
+  <div class="caption">インストール版の初回画面</div>
 </div>
 
+</div>
+
+---
+
+# ログインと公開
+
+<div class="grid grid-cols-2 gap-8 mt-9">
+  <div class="visual-card">
+    <div class="flow-number">インストール版</div>
+    <div class="text-xl mt-5">Studioの<strong class="text-purple-300">「XRift にログイン」</strong>からブラウザでログインします。</div>
+  </div>
+  <div class="visual-card">
+    <div class="flow-number">ブラウザ版β</div>
+    <div class="text-xl mt-5">編集はブラウザで始められます。XRiftへ送るときは、XRiftの設定で作るAPIキーを使います。</div>
+  </div>
+</div>
+
+<div class="mt-9 text-base opacity-70">
+  公開の操作は利用する版によって異なります。制作の流れは次から共通です。
 </div>
 
 ---
@@ -181,17 +216,17 @@ fonts:
 <div>
   <div class="flow-number">02 / 作る・試す</div>
   <div class="text-xl mt-6 leading-relaxed">
-    <strong class="text-purple-300">「新規プロジェクト」</strong>から
-    <strong>「ワールドをビジュアルで作る」</strong>を選びます。
+    プロジェクト一覧で<strong class="text-purple-300">ワールドを新しく作る</strong>。
+    インストール版では「新規プロジェクト」から「ワールドをビジュアルで作る」を選びます。
   </div>
   <div class="text-base opacity-70 mt-8">
-    ここから画面を見ながら制作を始められます。
+    ブラウザ版ではワールドを選んで「新規作成」に進みます。
   </div>
 </div>
 
 <div>
-  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="新しいプロジェクトの作り方を選ぶ画面" />
-  <div class="caption">左下の「ワールドをビジュアルで作る」</div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="インストール版の新規プロジェクト画面" />
+  <div class="caption">画面例はインストール版</div>
 </div>
 
 </div>
@@ -277,10 +312,11 @@ fonts:
 <div>
   <div class="flow-number">03 / 見せる</div>
   <div class="text-xl mt-6 leading-relaxed">
-    ワールドができたら<strong class="text-purple-300">「XRiftへ公開」</strong>から
-    タイトル・説明・画像を整えて送信します。
+    ワールドができたらタイトル・説明・画像を整え、
+    <strong class="text-purple-300">「XRiftへ公開」</strong>から送信します。
   </div>
   <div class="text-base opacity-70 mt-8">
+    インストール版はログイン、ブラウザ版βはAPIキーが必要です。
     送信後は<ruby>審査<rt>しんさ</rt></ruby>の状況を確認します。
   </div>
 </div>
@@ -300,7 +336,7 @@ fonts:
 # 3Dワールド制作へ
 
 <div class="text-2xl mt-9">
-  XRift Studioで作り、Playで確かめ、XRiftで見せる。
+  ブラウザかアプリを選び、作って、Playで確かめ、XRiftで見せる。
 </div>
 
 <div class="text-lg mt-10 opacity-75">
