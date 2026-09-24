@@ -28,6 +28,60 @@ fonts:
 
 ---
 
+# XRiftとは？
+
+<div class="grid grid-cols-2 gap-10 items-center mt-8">
+
+<div>
+  <div class="text-2xl leading-relaxed">
+    ブラウザから入れる、3Dの交流空間です。
+  </div>
+  <div class="text-xl mt-8 opacity-80">
+    作ったワールドを公開すると、ほかの人にも見てもらえます。
+  </div>
+  <div class="text-base mt-9 opacity-65">
+    XRift Studioは、そのワールドを作るための有志製アプリです。
+  </div>
+</div>
+
+<div class="visual-card h-64 flex justify-center items-center">
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/xrift-logo.svg" alt="XRiftのロゴ" class="w-64 max-h-32 object-contain" />
+</div>
+
+</div>
+
+---
+
+# 案内するメンバー
+
+<div class="grid grid-cols-3 gap-6 mt-9 text-center">
+
+<div class="flow-card items-center">
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-hagar.png" alt="はが" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
+  <strong class="text-purple-300">はが</strong>
+  <span>進行・制作案内</span>
+</div>
+
+<div class="flow-card items-center">
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-tomyu.png" alt="とみゅ〜" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
+  <strong class="text-purple-300">とみゅ〜</strong>
+  <span>サポート</span>
+</div>
+
+<div class="flow-card items-center">
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-sawa-zen.png" alt="sawa-zen" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
+  <strong class="text-purple-300">sawa-zen</strong>
+  <span>XRift開発者</span>
+</div>
+
+</div>
+
+<div class="mt-8 text-center text-xl opacity-80">
+  分からないところは、気軽に聞いてください。
+</div>
+
+---
+
 # まずは流れを見てみよう
 
 <div class="mt-6 text-2xl leading-relaxed">
