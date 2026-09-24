@@ -11,3 +11,8 @@
 .slidev-layout a { color: #c4b5fd; text-decoration: underline; }
 .slidev-layout code { font-family: 'JetBrains Mono', monospace; }
 .slidev-layout pre { border: 1px solid rgba(139,92,246,.3); border-radius: .5rem; }
+.agenda-mobile { display: none; }
+@media (max-width: 640px) {
+  .agenda-desktop { display: none !important; }
+  .agenda-mobile { display: block; }
+}
