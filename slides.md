@@ -1,9 +1,9 @@
 ---
 theme: default
-title: XRift ハンズオン｜事前準備
+title: XRift ハンズオン
 author: WebXR-JP
 info: |
-  XRift ハンズオン 2026年10月開催に向けた事前準備
+  XRift Studioでワールドを作るハンズオン
 colorSchema: dark
 fonts:
   sans: Noto Sans JP
@@ -16,124 +16,165 @@ fonts:
 
 # XRift ハンズオン
 
-## 事前準備から始めよう
+## 自分だけのワールドを作ろう
 
 <div class="mt-10 text-lg opacity-75">
-  当日までに使うものをそろえ、ログインまで確認します
+  XRift Studioを使って、作る・歩く・見せるを体験します
 </div>
 
 </div>
 
 ---
 
-# 事前準備のゴール
+# 今日やること
 
-この4つができれば準備完了です。
-
-1. パソコンに **VS Code** と **Node.js** を入れる
-2. **XRift アカウント**を作る
-3. **XRift CLI** を入れる
-4. `xrift whoami` で自分の名前を確認する
-
-<div class="mt-10 text-base opacity-70">
-  初めてでも大丈夫です。次のページから順番に進めてください。
-</div>
-
----
-
-# 1. 作業に使うソフトを入れる
-
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="grid grid-cols-2 gap-6 mt-8">
 
 <div class="p-6 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  <h2>VS Code</h2>
-  <p>コードを書いたり、コマンドを入力したりするために使います。</p>
-  <a href="https://code.visualstudio.com/">公式サイトからダウンロード ↗</a>
+  <div class="text-purple-300 font-bold text-2xl">01　つなぐ</div>
+  <p>XRiftのアカウントを作って、XRift Studioとつなぎます。</p>
 </div>
 
 <div class="p-6 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  <h2>Node.js</h2>
-  <p>JavaScript をパソコンで動かすために使います。公式サイトの LTS（推奨版）を選んでください。</p>
-  <a href="https://nodejs.org/">公式サイトからダウンロード ↗</a>
+  <div class="text-purple-300 font-bold text-2xl">02　作る</div>
+  <p>エディターで物を置き、色を変えてワールドを作ります。</p>
+</div>
+
+<div class="p-6 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  <div class="text-purple-300 font-bold text-2xl">03　歩く</div>
+  <p>Playで中に入り、自分の作品を確かめます。</p>
+</div>
+
+<div class="p-6 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  <div class="text-purple-300 font-bold text-2xl">04　見せる</div>
+  <p>できあがった作品を、XRiftで公開する流れを知ります。</p>
 </div>
 
 </div>
-
-<div class="mt-8 text-base">
-  インストール後、VS Code の「ターミナル」→「新しいターミナル」で確認します。
-</div>
-
-```bash
-node --version
-npm --version
-```
 
 ---
 
-# 2. XRift のアカウントを作る
+# まず使うもの
 
-<a href="https://xrift.net/">xrift.net を開く ↗</a>
+<div class="mt-8 space-y-5">
+
+<div class="p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  <div class="text-purple-300 font-bold text-2xl">パソコン</div>
+  <div>Windows または Mac。インターネットにつながる状態にしておきます。</div>
+</div>
+
+<div class="p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  <div class="text-purple-300 font-bold text-2xl">XRiftのアカウント</div>
+  <div>作品を自分のアカウントで公開するときに使います。</div>
+</div>
+
+<div class="p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  <div class="text-purple-300 font-bold text-2xl">XRift Studio</div>
+  <div>ワールドを作るアプリ。画面を見ながら操作できます。</div>
+</div>
+
+</div>
+
+---
+
+# 1. XRiftのアカウントを作る
+
+<div class="mt-8 text-2xl">
+  <a href="https://xrift.net/">XRiftを開く ↗</a>
+</div>
+
+<ol class="mt-7 space-y-4 text-xl">
+  <li>画面の案内に沿ってアカウントを作る</li>
+  <li>ブラウザでログインできることを確かめる</li>
+  <li>使ったログイン方法を覚えておく</li>
+</ol>
+
+<div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  すでにアカウントがあれば、そのアカウントを使えます。
+</div>
+
+---
+
+# 2. XRift Studioを入れる
 
 <div class="mt-6 text-xl">
-  アカウントを作成し、ブラウザからログインできることを確認してください。
+  <a href="https://webxr-jp.github.io/xrift-studio/#download">XRift Studioのダウンロード案内を開く ↗</a>
+</div>
+
+<div class="mt-7 space-y-4 text-xl">
+  <div>① 自分のパソコンに合うインストーラーを選ぶ</div>
+  <div>② インストールしてXRift Studioを開く</div>
+  <div>③ 最初の画面で <b class="text-purple-300">「セットアップを開始」</b> を押す</div>
+</div>
+
+<div class="mt-9 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  プロジェクト一覧が表示されたらOK。制作に必要なツールはアプリが用意します。
+</div>
+
+<div class="mt-5 text-base opacity-70">
+  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/installation.md">インストールガイド ↗</a>
+</div>
+
+---
+
+# 3. XRift Studioをアカウントにつなぐ
+
+<div class="mt-6 space-y-5 text-xl">
+  <div>① XRift Studioの画面で <b class="text-purple-300">「XRift にログイン」</b> を押す</div>
+  <div>② 開いたブラウザで、先ほど作ったアカウントでログインする</div>
+  <div>③ Studioに戻り、自分の表示名が出たら連携完了</div>
 </div>
 
 <div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  すでにアカウントがあれば、新しく作る必要はありません。
+  ここではまだ作品を公開しません。ログインと公開は別の操作です。
 </div>
 
 ---
 
-# 3. XRift CLI を入れる
+# 4. 最初のワールドを開く
 
-VS Code のターミナルで、次のコマンドを実行します。
+<div class="mt-6 space-y-5 text-xl">
+  <div>① プロジェクト一覧の <b class="text-purple-300">「新規プロジェクト」</b> を押す</div>
+  <div>② <b class="text-purple-300">「ワールドをビジュアルで作る」</b> を選ぶ</div>
+  <div>③ <b class="text-purple-300">「空のワールド」</b> から始める</div>
+</div>
 
-```bash
-npm install -g @xrift/cli
-```
-
-インストールできたか確認します。
-
-```bash
-xrift --version
-```
-
-<div class="mt-6 text-base opacity-75">
-  数字が表示されれば準備できています。コマンドが見つからない場合は、ターミナルを開き直してから再度確認してください。
+<div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  最初から床・ライト・開始位置が入っています。ここに好きなものを置いていきます。
 </div>
 
 ---
 
-# 4. ログインする
+# まずは一つ、置いてみよう
 
-ターミナルで実行します。
+<div class="mt-6 space-y-5 text-xl">
+  <div>上部の <b class="text-purple-300">「素材を追加」</b> から球を置いてみます。</div>
+  <div>球を選び、右側の <b class="text-purple-300">Inspector</b> で位置を変えます。</div>
+  <div><b class="text-purple-300">Play</b> を押すと、作ったワールドの中を歩けます。</div>
+</div>
 
-```bash
-xrift login
-```
+<div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  まずは置く・動かす・歩く。この3つができれば大成功！
+</div>
 
-ブラウザが開いたら、XRift のアカウントでログインしてください。
-
-```bash
-xrift whoami
-```
-
-<div class="mt-6 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  自分のユーザー名が表示されたら、事前準備は完了です！
+<div class="mt-5 text-base opacity-70">
+  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/first-world.md">操作を詳しく見る ↗</a>
 </div>
 
 ---
 
 # 困ったときは
 
-- `node` や `npm` が見つからない → Node.js を入れ直し、ターミナルを開き直す
-- `xrift` が見つからない → CLI のインストールを確認し、ターミナルを開き直す
-- ログインできない → <a href="https://xrift.net/">XRift のサイト</a>でログインできるか確認する
-
-<div class="mt-10">
-  詳しい使い方：<a href="https://docs.xrift.net/">XRift 公式ドキュメント ↗</a>
+<div class="mt-6 space-y-5 text-xl">
+  <div>アカウントに入れない → まず <a href="https://xrift.net/">XRiftのサイト</a>でログインを確認</div>
+  <div>セットアップが止まった → 表示された内容を確認して「セットアップを再試行」</div>
+  <div>Studioでログインできない → ブラウザで認証を終えたか確認</div>
 </div>
 
-<div class="mt-8 text-base opacity-70">
-  解決しない場合は、表示されたエラーメッセージを控えて当日スタッフに聞いてください。
+<div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
+  解決しないときは、止まった画面をスタッフに見せてください。
+</div>
+
+<div class="mt-5 text-base opacity-70">
+  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/index.md">XRift Studioの使い方 ↗</a>
 </div>
