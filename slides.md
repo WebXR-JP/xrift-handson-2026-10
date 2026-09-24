@@ -4,9 +4,9 @@ title: XRift Studioで3Dワールドを作る
 author: WebXR-JP
 info: |
   XRift Studioで3Dワールドを作るまでの流れ
+colorSchema: dark
 drawings:
   enabled: false
-colorSchema: dark
 fonts:
   sans: Noto Sans JP
   mono: JetBrains Mono
@@ -14,158 +14,243 @@ fonts:
 
 <div class="flex flex-col items-center justify-center h-full text-center">
 
-<div class="text-purple-300 text-xl tracking-widest mb-8">WebXR-JP / 2026.10</div>
+<div class="text-purple-300 text-xl tracking-widest mb-7">WebXR-JP / 2026.10</div>
 
 # XRift Studio
 
 ## 3Dワールドを作るまでの流れ
 
-<div class="mt-10 text-lg opacity-75">
-  アカウントの準備から、制作・確認・公開まで
+<div class="mt-8 text-xl opacity-80">
+  作る → 中を歩く → XRiftで見せる
 </div>
 
 </div>
 
 ---
 
-# この資料について
+# まずは流れを見てみよう
 
-<div class="mt-8 text-2xl leading-relaxed">
-  XRift Studioでワールドを作るときに、どんな順番で進むのかを紹介します。
+<div class="mt-6 text-2xl leading-relaxed">
+  この資料では、XRift Studioを使った制作の流れを紹介します。
 </div>
 
-<div class="mt-10 p-6 rounded-xl bg-purple-500/10 border border-purple-400/30 text-xl">
-  今回は操作の流れをつかむところまで。<br/>
-  作るワールドの内容は、これから決めていきます。
-</div>
-
----
-
-# 全体の流れ
-
-<div class="agenda-desktop mt-8 space-y-4 text-xl">
-  <div class="p-4 rounded-lg bg-purple-500/10 border border-purple-400/30">01　XRiftのアカウントを用意する</div>
-  <div class="p-4 rounded-lg bg-purple-500/10 border border-purple-400/30">02　XRift Studioを入れてログインする</div>
-  <div class="p-4 rounded-lg bg-purple-500/10 border border-purple-400/30">03　ワールドを作って、Playで確かめる</div>
-  <div class="p-4 rounded-lg bg-purple-500/10 border border-purple-400/30">04　作品を整えてXRiftへ公開する</div>
-</div>
-
-<div class="agenda-mobile mt-10 text-xl opacity-80">
-  次のページから順番に見ていきましょう。
-</div>
-
----
-
-# 01　XRiftのアカウントを用意する
-
-<div class="mt-9 text-2xl">
-  <a href="https://xrift.net/">XRiftを開く ↗</a>
-</div>
-
-<div class="mt-9 text-xl leading-relaxed">
-  アカウントを作り、ブラウザでログインできることを確認します。
-  すでにアカウントを持っている場合は、そのまま使えます。
-</div>
-
-<div class="mt-10 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  作ったワールドをXRiftで公開するときに使うアカウントです。
-</div>
-
----
-
-# 02　XRift Studioを準備する
-
-<div class="mt-8 text-2xl">
-  <a href="https://webxr-jp.github.io/xrift-studio/#download">XRift Studioをダウンロード ↗</a>
-</div>
-
-<div class="mt-8 text-xl leading-relaxed">
-  パソコンに合うアプリを入れて起動します。
-  初回画面の「セットアップを開始」を押すと、Studioが制作に必要なものを準備します。
-</div>
-
-<div class="mt-8 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  プロジェクト一覧が開けば、制作を始められます。
-</div>
-
-<div class="mt-5 text-base opacity-70">
-  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/installation.md">インストールの手順 ↗</a>
-</div>
-
----
-
-# 02　XRift Studioとアカウントをつなぐ
-
-<div class="mt-9 text-xl leading-relaxed">
-  Studioの「XRift にログイン」からブラウザを開き、
-  XRiftのアカウントで認証します。
-</div>
-
-<div class="mt-9 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  Studioに自分の表示名が出たら、ログイン完了です。
-</div>
-
----
-
-# 03　ワールドを作る
-
-<div class="mt-8 text-xl leading-relaxed">
-  Studioの「新規プロジェクト」から「ワールドをビジュアルで作る」を選びます。
-  エディターでは、物の配置や見た目を画面上で編集できます。
-</div>
-
-<div class="grid grid-cols-3 gap-5 mt-10 text-center">
-  <div class="p-5 rounded-lg bg-purple-500/10 border border-purple-400/30">置く</div>
-  <div class="p-5 rounded-lg bg-purple-500/10 border border-purple-400/30">整える</div>
-  <div class="p-5 rounded-lg bg-purple-500/10 border border-purple-400/30">保存する</div>
+<div class="grid grid-cols-3 gap-4 mt-10">
+  <div class="flow-card"><div class="flow-number">01</div><strong>準備する</strong><span>アカウントとStudio</span></div>
+  <div class="flow-card"><div class="flow-number">02</div><strong>作る・試す</strong><span>編集してPlay</span></div>
+  <div class="flow-card"><div class="flow-number">03</div><strong>見せる</strong><span>XRiftへ公開</span></div>
 </div>
 
 <div class="mt-8 text-base opacity-70">
-  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/first-world.md">最初のワールドを作る手順 ↗</a>
+  ワールドに何を作るかは、これから決めていきます。
 </div>
 
 ---
 
-# 03　Playで中を確かめる
+# XRiftのアカウントを用意
 
-<div class="mt-9 text-xl leading-relaxed">
-  編集した内容は自動で保存されます。「保存済み」を確認したら、
-  Playを押してワールドの中を歩いてみます。
+<div class="grid grid-cols-2 gap-10 items-center mt-8">
+
+<div>
+  <div class="flow-number">01 / 準備する</div>
+  <div class="text-2xl leading-relaxed mt-4">
+    <a href="https://xrift.net/">XRiftを開く ↗</a><br/>
+    アカウントを作って、ブラウザでログインします。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    すでに持っている場合は、そのアカウントを使えます。
+  </div>
 </div>
 
-<div class="mt-9 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  画面で見ていたときと、実際に中を歩いたとき。両方から見て、気になるところを直します。
+<div class="visual-card flex flex-col justify-center items-center h-64">
+  <div class="text-5xl font-bold text-purple-300">XRift</div>
+  <div class="text-xl mt-4 opacity-75">自分のワールドを見せる場所</div>
+</div>
+
 </div>
 
 ---
 
-# 04　XRiftへ公開する
+# XRift Studioを入れる
 
-<div class="mt-8 text-xl leading-relaxed">
-  作品ができたら、Studioの「XRiftへ公開」から
-  タイトル・説明・サムネイルを整え、送信します。
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">01 / 準備する</div>
+  <div class="text-2xl leading-relaxed mt-4">
+    <a href="https://webxr-jp.github.io/xrift-studio/#download">Studioをダウンロード ↗</a>
+  </div>
+  <div class="text-xl mt-7">
+    初めて起動したら<br/><strong class="text-purple-300">「セットアップを開始」</strong>を押します。
+  </div>
+  <div class="text-base opacity-70 mt-7">
+    必要な制作ツールはStudioが準備します。
+  </div>
 </div>
 
-<div class="mt-8 p-5 rounded-xl bg-purple-500/10 border border-purple-400/30">
-  送信後はXRift側の審査状況を確認します。公開URLが出たら、実際に開いて確かめましょう。
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/installation.png" alt="XRift Studioの初回セットアップ画面" />
+  <div class="caption">XRift Studioの初回画面</div>
 </div>
 
-<div class="mt-6 text-base opacity-70">
-  <a href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/publishing.md">公開の手順 ↗</a>
+</div>
+
+---
+
+# アカウントをつなぐ
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">01 / 準備する</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    Studioの<strong class="text-purple-300">「XRift にログイン」</strong>を押します。
+    ブラウザでXRiftにログインし、Studioに戻ります。
+  </div>
+  <div class="visual-card mt-8 text-lg">
+    Studioに自分の表示名が出たら完了です。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="XRift Studioのプロジェクト作成画面。右上にXRiftにログインのボタンがある" />
+  <div class="caption">画面右上に「XRift にログイン」</div>
+</div>
+
+</div>
+
+---
+
+# ワールドを開く
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">02 / 作る・試す</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    <strong class="text-purple-300">「新規プロジェクト」</strong>から
+    <strong>「ワールドをビジュアルで作る」</strong>を選びます。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    ここから画面を見ながら制作を始められます。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="新しいプロジェクトの作り方を選ぶ画面" />
+  <div class="caption">左下の「ワールドをビジュアルで作る」</div>
+</div>
+
+</div>
+
+---
+
+# はじめる場所を選ぶ
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">02 / 作る・試す</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    <strong class="text-purple-300">「空のワールド」</strong>から始められます。
+    床・ライト・開始位置が用意されています。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    ワールドの内容は、制作するときに決めましょう。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/blank-world.png" alt="空のワールドを選ぶ画面" />
+  <div class="caption">「空のワールド」を選ぶ画面</div>
+</div>
+
+</div>
+
+---
+
+# 画面で作る
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">02 / 作る・試す</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    物を置いて、位置や見た目を変えます。
+    右側の<strong class="text-purple-300">Inspector</strong>で、選んだ物を調整できます。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    変更は自動で保存されます。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/first-world.png" alt="XRift Studioの編集画面。中央にワールド、右に設定、下に素材がある" />
+  <div class="caption">中央で見て、右側で調整</div>
+</div>
+
+</div>
+
+---
+
+# 中を歩いて確かめる
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">02 / 作る・試す</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    <strong class="text-purple-300">Play</strong>でワールドの中に入ります。
+    歩いて見た印象を確かめ、気になるところを調整します。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    編集に戻るときはEscを押してからStop。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/play-mode.png" alt="Play中のワールド画面。上部にStopボタンがある" />
+  <div class="caption">作りながら、実際の見え方を確認</div>
+</div>
+
+</div>
+
+---
+
+# XRiftで見せる
+
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
+  <div class="flow-number">03 / 見せる</div>
+  <div class="text-xl mt-6 leading-relaxed">
+    ワールドができたら<strong class="text-purple-300">「XRiftへ公開」</strong>から
+    タイトル・説明・画像を整えて送信します。
+  </div>
+  <div class="text-base opacity-70 mt-8">
+    送信後は<ruby>審査<rt>しんさ</rt></ruby>の状況を確認します。
+  </div>
+</div>
+
+<div class="visual-card h-64 flex flex-col justify-center">
+  <div class="text-2xl font-bold text-purple-300">制作 → 確認 → 公開</div>
+  <div class="text-lg mt-6 opacity-75">公開URLが出たら、実際に開いてみましょう。</div>
+  <a class="text-base mt-6" href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/publishing.md">公開の手順 ↗</a>
+</div>
+
 </div>
 
 ---
 
 <div class="flex flex-col items-center justify-center h-full text-center">
 
-# ここから3Dワールド制作へ
+# 3Dワールド制作へ
 
-<div class="text-2xl mt-8">
-  アカウント → Studio → 制作 → Play → 公開
+<div class="text-2xl mt-9">
+  XRift Studioで作り、Playで確かめ、XRiftで見せる。
 </div>
 
-<div class="text-xl mt-10 opacity-75">
-  作る内容が決まったら、この流れに沿って進めます。
+<div class="text-lg mt-10 opacity-75">
+  制作の具体的な内容は、次の段階で決めていきます。
 </div>
 
 </div>
