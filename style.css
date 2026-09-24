@@ -16,3 +16,9 @@
   .agenda-desktop { display: none !important; }
   .agenda-mobile { display: block; }
 }
+
+/* Slidevのページ移動一覧はスマホで画面を覆うため表示しない。 */
+#slidev-goto-dialog { display: none !important; }
+@media (max-width: 640px) {
+  nav button[title="Show slide overview"] { display: none !important; }
+}
