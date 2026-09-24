@@ -1,9 +1,11 @@
 ---
 theme: default
-title: XRift Studio ハンズオン
+title: XRift Studioで3Dワールドを作る
 author: WebXR-JP
 info: |
   XRift Studioで3Dワールドを作るまでの流れ
+drawings:
+  enabled: false
 colorSchema: dark
 fonts:
   sans: Noto Sans JP
@@ -14,7 +16,7 @@ fonts:
 
 <div class="text-purple-300 text-xl tracking-widest mb-8">WebXR-JP / 2026.10</div>
 
-# XRift Studio ハンズオン
+# XRift Studio
 
 ## 3Dワールドを作るまでの流れ
 
