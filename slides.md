@@ -14,6 +14,8 @@ fonts:
 
 <div class="flex flex-col items-center justify-center h-full text-center">
 
+<img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/xrift-logo.svg" alt="XRift" class="h-20 max-w-64 object-contain mb-7" />
+
 <div class="text-purple-300 text-xl tracking-widest mb-7">WebXR-JP / 2026.10</div>
 
 # XRift Studio
@@ -52,32 +54,21 @@ fonts:
 
 ---
 
-# 案内するメンバー
+# 案内する人
 
-<div class="grid grid-cols-3 gap-6 mt-9 text-center">
+<div class="grid grid-cols-2 gap-10 items-center mt-10">
 
-<div class="flow-card items-center">
-  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-hagar.png" alt="はが" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
-  <strong class="text-purple-300">はが</strong>
-  <span>進行・制作案内</span>
+<div class="flex justify-center">
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-hagar.png" alt="はが" class="w-48 h-48 rounded-full object-cover border-4 border-purple-400/50" />
 </div>
 
-<div class="flow-card items-center">
-  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-tomyu.png" alt="とみゅ〜" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
-  <strong class="text-purple-300">とみゅ〜</strong>
-  <span>サポート</span>
+<div>
+  <div class="flow-number">WebXR-JP</div>
+  <div class="text-4xl font-bold text-purple-300 mt-4">はが</div>
+  <div class="text-xl mt-6">XRift Studioを使う流れを案内します。</div>
+  <div class="text-lg mt-7 opacity-75">分からないところは気軽に聞いてください。</div>
 </div>
 
-<div class="flow-card items-center">
-  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/staff-sawa-zen.png" alt="sawa-zen" class="w-28 h-28 rounded-full object-cover border-2 border-purple-400/50" />
-  <strong class="text-purple-300">sawa-zen</strong>
-  <span>XRift開発者</span>
-</div>
-
-</div>
-
-<div class="mt-8 text-center text-xl opacity-80">
-  分からないところは、気軽に聞いてください。
 </div>
 
 ---
@@ -85,14 +76,21 @@ fonts:
 # まずは流れを見てみよう
 
 <div class="grid grid-cols-3 gap-4 mt-9">
-  <div class="flow-card"><div class="flow-number">01</div><strong>準備する</strong><span>XRiftのアカウント</span></div>
-  <div class="flow-card"><div class="flow-number">02</div><strong>作る・試す</strong><span>ブラウザかアプリで制作</span></div>
-  <div class="flow-card"><div class="flow-number">03</div><strong>見せる</strong><span>XRiftへ公開</span></div>
+  <div class="flow-card">
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="アカウント"><circle cx="32" cy="20" r="10" stroke="currentColor" stroke-width="3"/><path d="M12 54c0-12 8-20 20-20s20 8 20 20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="flow-number">01</div><strong>準備する</strong><span>XRiftのアカウント</span>
+  </div>
+  <div class="flow-card">
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="制作"><rect x="8" y="10" width="48" height="37" rx="3" stroke="currentColor" stroke-width="3"/><path d="M17 54h30M32 47v7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="flow-number">02</div><strong>作る・試す</strong><span>ブラウザかアプリで制作</span>
+  </div>
+  <div class="flow-card">
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="公開"><circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="3"/><path d="M10 32h44M32 10c7 6 11 13 11 22s-4 16-11 22c-7-6-11-13-11-22s4-16 11-22Z" stroke="currentColor" stroke-width="3"/></svg>
+    <div class="flow-number">03</div><strong>見せる</strong><span>XRiftへ公開</span>
+  </div>
 </div>
 
-<div class="mt-10 text-xl opacity-80">
-  Studioはブラウザで開く方法と、パソコンに入れる方法があります。
-</div>
+<div class="mt-8 text-xl opacity-80">Studioはブラウザでも、パソコンのアプリでも使えます。</div>
 
 ---
 
@@ -112,7 +110,7 @@ fonts:
 </div>
 
 <div class="visual-card flex flex-col justify-center items-center h-64">
-  <div class="text-5xl font-bold text-purple-300">XRift</div>
+  <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/xrift-logo.svg" alt="XRiftのロゴ" class="w-52 max-h-24 object-contain" />
   <div class="text-xl mt-4 opacity-75">自分のワールドを見せる場所</div>
 </div>
 
@@ -146,25 +144,20 @@ fonts:
 
 <div class="grid grid-cols-3 gap-5 mt-9 text-center">
   <div class="flow-card items-center">
-    <div class="text-4xl">💻</div>
-    <strong>パソコン</strong>
-    <span>ブラウザ版・インストール版の両方を選べます。</span>
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="パソコン"><rect x="7" y="10" width="50" height="36" rx="3" stroke="currentColor" stroke-width="3"/><path d="M4 54h56M24 46l-3 8m19-8 3 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <strong>パソコン</strong><span>ブラウザ版・インストール版の両方を選べます。</span>
   </div>
   <div class="flow-card items-center">
-    <div class="text-4xl">▣</div>
-    <strong>iPad</strong>
-    <span>Safariでブラウザ版を開き、タッチ操作で制作できます。</span>
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="iPad"><rect x="11" y="5" width="42" height="54" rx="5" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="53" r="2" fill="currentColor"/></svg>
+    <strong>iPad</strong><span>Safariでブラウザ版を開き、タッチ操作で制作できます。</span>
   </div>
   <div class="flow-card items-center">
-    <div class="text-4xl">▯</div>
-    <strong>スマホ</strong>
-    <span>ブラウザ版を開けます。画面が狭いため、制作はパソコンやiPadが進めやすいです。</span>
+    <svg class="flow-icon" viewBox="0 0 64 64" fill="none" aria-label="スマホ"><rect x="18" y="4" width="28" height="56" rx="5" stroke="currentColor" stroke-width="3"/><path d="M27 10h10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <strong>スマホ</strong><span>ブラウザ版を開けます。制作はパソコンやiPadが進めやすいです。</span>
   </div>
 </div>
 
-<div class="mt-8 text-base opacity-70">
-  Chromeは入口の例です。表示や操作はブラウザ・端末によって異なります。
-</div>
+<div class="mt-8 text-base opacity-70">Chromeは入口の例です。画面や操作は端末によって異なります。</div>
 
 ---
 
@@ -192,19 +185,24 @@ fonts:
 
 # ログインと公開
 
-<div class="grid grid-cols-2 gap-8 mt-9">
+<div class="grid grid-cols-2 gap-8 items-center mt-5">
+
+<div>
   <div class="visual-card">
     <div class="flow-number">インストール版</div>
-    <div class="text-xl mt-5">Studioの<strong class="text-purple-300">「XRift にログイン」</strong>からブラウザでログインします。</div>
+    <div class="text-lg mt-4">Studioの「XRift にログイン」からブラウザでログインします。</div>
   </div>
-  <div class="visual-card">
+  <div class="visual-card mt-5">
     <div class="flow-number">ブラウザ版β</div>
-    <div class="text-xl mt-5">編集はブラウザで始められます。XRiftへ送るときは、XRiftの設定で作るAPIキーを使います。</div>
+    <div class="text-lg mt-4">編集はすぐに始められます。XRiftへ送るときはAPIキーを使います。</div>
   </div>
 </div>
 
-<div class="mt-9 text-base opacity-70">
-  公開の操作は利用する版によって異なります。制作の流れは次から共通です。
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/new-project.png" alt="インストール版の画面右上にXRiftにログインのボタンがある" />
+  <div class="caption">画面例はインストール版</div>
+</div>
+
 </div>
 
 ---
@@ -319,12 +317,12 @@ fonts:
     インストール版はログイン、ブラウザ版βはAPIキーが必要です。
     送信後は<ruby>審査<rt>しんさ</rt></ruby>の状況を確認します。
   </div>
+  <a class="text-base mt-6 inline-block" href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/publishing.md">公開の手順 ↗</a>
 </div>
 
-<div class="visual-card h-64 flex flex-col justify-center">
-  <div class="text-2xl font-bold text-purple-300">制作 → 確認 → 公開</div>
-  <div class="text-lg mt-6 opacity-75">公開URLが出たら、実際に開いてみましょう。</div>
-  <a class="text-base mt-6" href="https://github.com/WebXR-JP/xrift-studio/blob/main/docs/guide/publishing.md">公開の手順 ↗</a>
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/step-shots/myworld-list.png" alt="XRiftのマイワールド画面の例" />
+  <div class="caption">XRiftの「マイワールド」画面の例</div>
 </div>
 
 </div>
@@ -332,6 +330,8 @@ fonts:
 ---
 
 <div class="flex flex-col items-center justify-center h-full text-center">
+
+<img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/xrift-logo.svg" alt="XRift" class="h-16 max-w-52 object-contain mb-6" />
 
 # 3Dワールド制作へ
 
