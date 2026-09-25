@@ -19,6 +19,7 @@
 }
 .flow-card { display: flex; flex-direction: column; gap: .6rem; text-align: center; }
 .flow-card strong { font-size: 1.5rem; }
+.flow-icon { width: 3.5rem; height: 3.5rem; color: #c4b5fd; margin: 0 auto .25rem; flex: none; }
 .flow-card span { font-size: .95rem; opacity: .75; }
 .screenshot {
   width: 100%;
