@@ -1,9 +1,9 @@
 ---
 theme: default
-title: XRift Studioで3Dワールドを作る
+title: メタバースのワールドを作ろう
 author: WebXR-JP
 info: |
-  XRift Studioで3Dワールドを作るまでの流れ
+  メタバースのワールド作りとXRift Studioの使い方
 colorSchema: dark
 drawings:
   enabled: false
@@ -18,12 +18,12 @@ fonts:
 
 <div class="text-purple-300 text-xl tracking-widest mb-7">WebXR-JP / 2026.10</div>
 
-# XRift Studioで<br/>3Dワールドを作る
+# メタバースの<br/>ワールドを作ろう
 
-## はじめ方から公開まで
+## アイデアを、歩ける場所に
 
 <div class="mt-8 text-xl opacity-80">
-  ブラウザとアプリ、どちらからでも始められます
+  いろいろな作り方を知って、自分の一歩を見つけよう
 </div>
 
 </div>
@@ -35,23 +35,96 @@ fonts:
 <div class="grid grid-cols-3 gap-5 mt-10">
   <div class="flow-card">
     <div class="flow-number">01</div>
-    <strong>何を使う？</strong>
-    <span>XRiftとXRift Studioの関係</span>
+    <strong>何を作る？</strong>
+    <span>ワールドの楽しさと、いろいろな作り方</span>
   </div>
   <div class="flow-card">
     <div class="flow-number">02</div>
     <strong>どう始める？</strong>
-    <span>ブラウザ版・アプリ版の入口</span>
+    <span>XRift Studioで作る入口</span>
   </div>
   <div class="flow-card">
     <div class="flow-number">03</div>
     <strong>どう見せる？</strong>
-    <span>制作からPlay、公開まで</span>
+    <span>作って、歩いて、公開する流れ</span>
   </div>
 </div>
 
 <div class="mt-9 text-xl opacity-80 text-center">
-  まず全体像をつかんでから、ワールド作りへ進みます。
+  自分ならどんな場所を作りたいか、想像しながら見てみよう。
+</div>
+
+---
+
+# ワールドって、どんな場所？
+
+<div class="grid grid-cols-2 gap-9 items-center mt-7">
+
+<div>
+  <div class="text-2xl leading-relaxed">
+    自分で作った場所を、<strong class="text-purple-300">歩いたり、誰かと一緒に訪れたり</strong>できる。
+  </div>
+  <div class="text-xl mt-8 opacity-80">
+    景色を楽しむ場所も、遊べる場所も。何を作るかはアイデア次第。
+  </div>
+</div>
+
+<div class="visual-card p-3">
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/step-shots/myworld-list.png" alt="いろいろなワールドが並ぶXRiftの画面" />
+  <div class="caption">作ったワールドを、みんなが訪れる場所に</div>
+</div>
+
+</div>
+
+---
+
+# 作り方は、ひとつじゃない
+
+<div class="grid grid-cols-3 gap-5 mt-9">
+  <div class="flow-card">
+    <div class="text-5xl mb-3">🧱</div>
+    <strong>並べて作る</strong>
+    <span>マインクラフトのように、ブロックを積んで場所を作る。</span>
+  </div>
+  <div class="flow-card">
+    <div class="text-5xl mb-3">🎨</div>
+    <strong>形から作る</strong>
+    <span>3Dモデリングで、建物や小物を自分で作る。</span>
+  </div>
+  <div class="flow-card">
+    <div class="text-5xl mb-3">⚙️</div>
+    <strong>仕組みから作る</strong>
+    <span>プログラムで動きや遊び方を考える。</span>
+  </div>
+</div>
+
+<div class="mt-8 text-xl opacity-80 text-center">
+  ひとりで作ることも、得意なことを持ち寄って作ることもできます。
+</div>
+
+---
+
+# 今回は、XRift Studioから
+
+<div class="grid grid-cols-2 gap-8 items-center mt-6">
+
+<div>
+  <div class="text-2xl leading-relaxed">
+    まずは画面で物を置きながら、<strong class="text-purple-300">歩けるワールド</strong>を作ってみよう。
+  </div>
+  <div class="text-xl mt-8 opacity-80">
+    作る → 中に入って試す → 誰かに見せる。
+  </div>
+  <div class="text-base mt-8 opacity-65">
+    ここからは、XRift Studioを使う流れを紹介します。
+  </div>
+</div>
+
+<div>
+  <img class="screenshot" src="https://raw.githubusercontent.com/WebXR-JP/xrift-studio/4337228c3049fabafe9c707ee0b1ef1bb635e03e/docs/guide/media/first-world.png" alt="XRift Studioの編集画面" />
+  <div class="caption">画面を見ながら、ワールドを形にする</div>
+</div>
+
 </div>
 
 ---
@@ -364,7 +437,7 @@ fonts:
 </div>
 
 <div class="mt-9 text-lg opacity-70">
-  作るワールドの内容は、これから自由に考えられます。
+  自分のアイデアを、歩ける場所にしてみよう。
 </div>
 
 ---
@@ -373,14 +446,14 @@ fonts:
 
 <img src="https://raw.githubusercontent.com/WebXR-JP/xrift-handson-2026-04/2cbef7ca8096a0636fb3625f54805c93364f062d/public/xrift-logo.svg" alt="XRift" class="h-16 max-w-52 object-contain mb-6" />
 
-# 3Dワールド制作へ
+# 次は、あなたのワールドへ
 
 <div class="text-2xl mt-9">
   ブラウザかアプリを選び、作って、Playで確かめ、XRiftで見せる。
 </div>
 
 <div class="text-lg mt-10 opacity-75">
-  制作の具体的な内容は、次の段階で決めていきます。
+  どんな場所を作ってみたい？
 </div>
 
 </div>
