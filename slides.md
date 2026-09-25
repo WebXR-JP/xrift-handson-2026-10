@@ -18,14 +18,40 @@ fonts:
 
 <div class="text-purple-300 text-xl tracking-widest mb-7">WebXR-JP / 2026.10</div>
 
-# XRift Studio
+# XRift Studioで<br/>3Dワールドを作る
 
-## 3Dワールドを作るまでの流れ
+## はじめ方から公開まで
 
 <div class="mt-8 text-xl opacity-80">
-  作る → 中を歩く → XRiftで見せる
+  ブラウザとアプリ、どちらからでも始められます
 </div>
 
+</div>
+
+---
+
+# この資料で分かること
+
+<div class="grid grid-cols-3 gap-5 mt-10">
+  <div class="flow-card">
+    <div class="flow-number">01</div>
+    <strong>何を使う？</strong>
+    <span>XRiftとXRift Studioの関係</span>
+  </div>
+  <div class="flow-card">
+    <div class="flow-number">02</div>
+    <strong>どう始める？</strong>
+    <span>ブラウザ版・アプリ版の入口</span>
+  </div>
+  <div class="flow-card">
+    <div class="flow-number">03</div>
+    <strong>どう見せる？</strong>
+    <span>制作からPlay、公開まで</span>
+  </div>
+</div>
+
+<div class="mt-9 text-xl opacity-80 text-center">
+  まず全体像をつかんでから、ワールド作りへ進みます。
 </div>
 
 ---
@@ -325,6 +351,20 @@ fonts:
   <div class="caption">XRiftの「マイワールド」画面の例</div>
 </div>
 
+</div>
+
+---
+
+# 持ち帰ること
+
+<div class="mt-8 space-y-5 text-xl">
+  <div class="visual-card"><strong class="text-purple-300">始める場所</strong>　ブラウザ版かアプリ版を選べる</div>
+  <div class="visual-card"><strong class="text-purple-300">作る順番</strong>　ワールドを開く → 編集する → Playで確かめる</div>
+  <div class="visual-card"><strong class="text-purple-300">見せる方法</strong>　作品を整えてXRiftへ公開する</div>
+</div>
+
+<div class="mt-9 text-lg opacity-70">
+  作るワールドの内容は、これから自由に考えられます。
 </div>
 
 ---
